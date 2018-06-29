@@ -11,7 +11,7 @@ public class SingletonDBConnection {
     private String password = "toor";
 
     private SingletonDBConnection(){
-            this.connection = url+username+password;
+            this.connection = url+" "+username+" "+password;
     }
 
     public String getConnection() {
